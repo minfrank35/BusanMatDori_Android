@@ -17,11 +17,6 @@ public abstract class BaseActivity extends AppCompatActivity implements LoadingC
 
     private ProgressDialog progressDialog;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        // 액티비티 공통 초기화 로직이 필요하다면 여기에 작성
-    }
 
     // ------------------------------------------------------------------------
     // LoadingController 구현부
